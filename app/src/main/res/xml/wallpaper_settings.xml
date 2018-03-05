@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:author="@string/author"
+    android:settingsActivity="com.example.katy.mywallpaper.MyPreferencesActivity"
+    android:theme="@style/Theme.Transparent"/>
+    <!--android:thumbnail="@android/wallpaper"/>-->

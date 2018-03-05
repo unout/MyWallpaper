@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="circles"
+        android:summary="@string/summary_circles"
+        android:title="@string/title_circles_touch" />
+    <CheckBoxPreference
+        android:key="touch"
+        android:summary="@string/summary_touch"
+        android:title="@string/title_bool_touch" />
+    <EditTextPreference
+        android:defaultValue="@integer/def_num_circles"
+        android:inputType="number"
+        android:key="numberOfCircles"
+        android:summary="From 0 to 100"
+        android:title="@string/title_num_circles" />
+    <EditTextPreference
+        android:defaultValue="@integer/def_circle_probability"
+        android:inputType="number"
+        android:key="probabilityOfCircle"
+        android:summary="From 0% to 100%"
+        android:title="@string/title_probability" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:defaultValue="@color/background"
+        android:key="backgroundColor"
+        alphaSlider="true"
+        android:title="@string/title_back_color" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:defaultValue="@color/circlesColor"
+        android:key="circlesColor"
+        alphaSlider="true"
+        android:title="@string/title_circle_color" />
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:defaultValue="@color/touchColor"
+        android:key="touchColor"
+        alphaSlider="true"
+        android:title="@string/title_touch_color" />
+</PreferenceScreen>

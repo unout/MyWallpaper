@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WaveWallpaper</string>
+    <string name="author">herrzak</string>
+    <string name="wallpaper_description">Touch water</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+    <string name="set_pref">Settings</string>
+
+    <integer name="def_num_circles">16</integer>
+    <integer name="def_circle_probability">15</integer>
+
+    <string name="title_back_color">Choose background color</string>
+    <string name="title_num_circles">Number of Circles(from 0 to 100)</string>
+    <string name="title_bool_touch">Enable Touch</string>
+    <string name="title_probability">Probability of circle(from 0 to 100%)</string>
+    <string name="title_circle_color">Choose circles color</string>
+    <string name="title_touch_color">Choose touch color</string>
+    <string name="title_circles_touch">Enable circles</string>
+
+    <string name="summary_circles">Enable side circles</string>
+    <string name="summary_touch">Enable touch circles</string>
+</resources>
